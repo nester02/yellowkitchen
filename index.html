@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yellowkitchen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700;800&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container _container">
+                <a href="#" class="header__logo"><img src="./img/Button/yellowkitchen.png" alt="yellowkitchen"></a>
+
+                <div class="header__buttons">
+                    <div class="header__button --login"><img src="./img/ic/login.png" alt="">Log in</div>
+                    <div class="header__button --cart"><img src="./img/ic/cart.png" alt="">0</div>
+                    <button class="header__menu">
+                        <img class="header__button--subtle" src="./img/Menu-open.png" alt="Nav">
+                    </button>
+                </div>
+            </div>
+
+    </header>
+    <section class="home">
+        <div class="home__container _container">
+            <div class="home__text">
+                <h1 class="home__heading">Your Food court at home</h1>
+                <div class="home__info">
+                    <div class="info__block">
+                        <p class="info__block--heading">Delivery</p>
+                        <p class="info__block--text">Order in</p>
+                    </div>
+                    <div class="info__block">
+                        <p class="info__block--heading">Takeout</p>
+                        <p class="info__block--text">Grab and go</p>
+                    </div>
+                </div>
+            </div>
+            <div class="home__footer">
+                <div class="footer__block">
+                    <img src="./img/ic/infographic/time-eat.png" alt="">
+                    <p class="footer__block--text">delivery in all paris <br> in less than 30 minutes</p>
+                </div>
+                <div class="footer__block">
+                    <img src="./img/ic/infographic/delivery.png" alt="">
+                    <p class="footer__block--text">Free delivery <br> from 29 euros</p>
+                </div>
+                <div class="footer__block">
+                    <img src="./img/ic/infographic/paris.png" alt="">
+                    <p class="footer__block--text">Only fresh <br> and French products</p>
+                </div>
+            </div>
+            <div class="home__image">
+                <img src="./img/home.png" alt="">
+            </div>
+        </div>
+        <div class="mobile__nav">
+            <div class="container mobile__nav--container">
+                <div class="mobile__heading">
+                    <p class="mobile__heading--number">0800 111 126</p>
+                    <p class="mobile__heading--time">8:00 - 22:00</p>
+                </div>
+                <div class="mobile__link">Delivery info</div>
+                <div class="mobile__link">About us</div>
+                <div class="mobile__link">Restaurants</div>
+                <div class="mobile__link">Specialities</div>
+                <div class="select-wrapper">
+                    <select name="language" id="lang" class="mobile__select">
+                        <option value="value1" selected>English</option>
+                        <option value="value2" >Ukrainian</option>
+                        <option value="value2" >Spanish</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="restaurants">
+        <div class="_container _container__restaurants">
+            <div class="restaurants__header">
+                <h2 class="section__heading restaurants">Restaurants</h2>
+                <button class="btn__gray restaurants"><a href="#">show all</a></button>
+            </div>
+            <div class="restaurants__slider">
+                <div class="slider__wrapper">
+                    <button id="prev-slide" class="card__btn card__btn--prev" tabindex="0"><img src="./img/cards/slider-button.svg" alt=""></button>
+                        <div class="slider__cards">
+                            <div class="slider__card">
+                                <img src="./img/cards/card1.jpg" alt="" class="card__img">
+                                <img src="./img/cards/burger.png" alt="" class="card__logo">
+                            </div>
+                            <div class="slider__card">
+                                <img src="./img/cards/card2.jpg" alt="" class="card__img">
+                                <img src="./img/cards/il_paster.png" alt="" class="card__logo">
+                            </div>
+                            <div class="slider__card">
+                                <img src="./img/cards/card3.jpg" alt="" class="card__img">
+                                <img src="./img/cards/Believe.png" alt="" class="card__logo">
+                            </div>
+                            <div class="slider__card">
+                                <img src="./img/cards/card4.jpg" alt="" class="card__img">
+                                <img src="./img/cards/vietnamese.png" alt="" class="">
+                            </div>
+                            <div class="slider__card">
+                                <img src="./img/cards/card1.jpg" alt="" class="card__img">
+                                <img src="./img/cards/burger.png" alt="" class="card__logo">
+                            </div>
+                            <div class="slider__card">
+                                <img src="./img/cards/card2.jpg" alt="" class="card__img">
+                                <img src="./img/cards/il_paster.png" alt="" class="card__logo">
+                            </div>
+                            <div class="slider__card">
+                                <img src="./img/cards/card3.jpg" alt="" class="card__img">
+                                <img src="./img/cards/Believe.png" alt="" class="card__logo">
+                            </div>
+                            <div class="slider__card">
+                                <img src="./img/cards/card4.jpg" alt="" class="card__img">
+                                <img src="./img/cards/vietnamese.png" alt="" class="">
+                            </div>
+                        </div>
+                    <button id="next-slide" class="card__btn card__btn--next" tabindex="0"><img src="./img/cards/slider-button.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="delivery">
+        <div class="_container -delivery__container">
+            <div class="delivery__text">
+                <h3 class="section__heading delivery">Your nearest restaurants</h3>
+                <p class="delivery__description">Each kitchen works with its own delivery area to <br>deliver food to you as soon as possible</p>
+            </div>
+            <div class="delivery__input">
+                    <img src="/img/input-placeholder.png" alt="icon" class="input__icon">
+                    <input placeholder="Enter delivery address" type="text" name="delivery__address" id="delivery__address" class="delivery__address" required />
+                    <button class="delivery__send">send</button>
+            </div>
+        </div>
+    </section>
+    <section class="specialities">
+        <div class="_container -specialities__container">
+            <div class="specialities__header">
+                <h2 class="section__heading section__heading--specialities">Specialities</h2>
+                <button class="btn__gray btn__gray--specialities"><a href="#">show all</a></button>
+            </div>
+            <div class="specialities__slider">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/bagel.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Bagel</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/burger.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Burger</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/chicken.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Chicken</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/fish.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Fish</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/fishnchips.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Fish’Chips</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/vegan.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Salads</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/pizza.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Pizza</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/raviolli.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Pasta</p>
+                        </div>
+
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/bagel.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Bagel</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/burger.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Burger</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/chicken.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Chicken</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/fish.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Fish</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/fishnchips.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Fish’Chips</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/vegan.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Salads</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/pizza.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Pizza</p>
+                        </div>
+                        <div class="specialities__card swiper-slide">
+                            <img src="./img/ic/Food/raviolli.png" alt="" class="specialities__card--image">
+                            <p class="specialities__card--text">Pasta</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <button id="sliderPrev" class="card__btn card__btn--prev prev--specialities">
+                    <img src="./img/cards/slider-button.svg" alt="">
+                </button>
+                <button id="sliderNext" class="card__btn card__btn--next next--specialities">
+                    <img src="./img/cards/slider-button.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="count">
+        <div class="_container count-container">
+            <div class="count__cards">
+                <div class="count__card">
+                    <div class="count__card--circle"><div class="count__card--text">1</div></div>
+                    <div class="count__card--description --title_2">kitchen</div>
+                </div>
+                <div class="count__card">
+                    <div class="count__card--circle"><div class="count__card--text">11</div></div>
+                    <div class="count__card--description --title_2">specialities</div>
+                </div>
+                <div class="count__card">
+                    <div class="count__card--circle"><div class="count__card--text">11</div></div>
+                    <div class="count__card--description --title_2">restaurants</div>
+                </div>
+                <div class="count__card">
+                    <div class="count__card--circle"><div class="count__card--text">1</div></div>
+                    <div class="count__card--description --title_2">transport costs</div>
+                </div>
+            </div>
+        </div>
+        <div class="_container"><img src="./img/map.jpg" alt="" class="count__map"></div>
+        <img src="./img/coumt-bg.jpg" alt="" class="count__background--img">
+    </section>
+    <section class="instagram">
+        <div class="_container">
+            <div class="instagram__text">
+                <p class="instagram__text--black">#YellowKitchens&nbsp;<p class="instagram__text--gray"> in instagram</p></p>
+
+            </div>
+            <div class="instagram__images">
+                <img src="img/inst_1.jpg" alt="" class="instagram__image">
+                <img src="img/inst_2.jpg" alt="" class="instagram__image">
+                <img src="img/inst_3.jpg" alt="" class="instagram__image">
+                <img src="img/inst_4.jpg" alt="" class="instagram__image">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="_container">
+            <div class="footer__inner">
+                <div class="footer__column--first">
+                    <a href="#" class="header__logo"><img src="./img/Button/yellowkitchen.png" alt="yellowkitchen"></a>
+                    <div class="footer__wrapper--line"></div>
+                    <a href="#" class="column__first--link"><img src="" alt=""></a>
+                    <a href="#" class="column__first--link"><img src="" alt=""></a>
+                </div>
+                <div class="footer__column--second">
+                    <a class="footer__link--heading"></a>
+                    <a class="footer__link"></a>
+                    <a class="footer__link"></a>
+                    <a class="footer__link"></a>
+                    <a class="footer__link"></a>
+                    <a class="footer__link"></a>
+                </div>
+                <div class="footer__column--third">
+                    <a class="footer__link--heading"></a>
+                    <a class="footer__link"></a>
+                    <a class="footer__link"></a>
+                    <a class="footer__link"></a>
+                    <a class="footer__link"></a>
+                    <div class="select-wrapper">
+                        <select name="language" id="lang" class="mobile__select">
+                            <option value="value1" selected>English</option>
+                            <option value="value2" >Ukrainian</option>
+                            <option value="value2" >Spanish</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="footer__column--fourth">
+                    <a class="footer__link--heading"></a>
+                    <p class="footer__paragraph"></p>
+                    <p class="footer__paragraph"></p>
+                    <p class="footer__paragraph"></p>
+                    <p class="footer__paragraph"></p>
+                </div>
+            </div>
+            <div class="footer__privacy_policy">
+
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
